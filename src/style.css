@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgba(209, 246, 246, 0.445); */
+    border-radius: 20px;
+    
+   
+}
+img{
+    vertical-align: middle;
+}
+.formbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-color: rgba(209, 246, 246, 0.445);
+    border-radius: 20px;
+    
+    
+    
+}
+#firstname{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+#lastname{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+#email{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+#password{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+#btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+.error{
+    font-size: 15px;
+    color: red;
+
+}
